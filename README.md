@@ -1,4 +1,4 @@
-# 👋 Mahinuddin Pinjara – Full Stack .NET & Cloud Developer
+# 👋 Mahinuddin Pinjara – Senior Full Stack .NET & Cloud Developer
 
 🎯 11+ years in building scalable enterprise applications using .NET, Angular, React, and Azure  
 💡 Passionate about Clean Architecture, DevOps automation, and rapid PoC development  

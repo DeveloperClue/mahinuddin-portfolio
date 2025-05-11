@@ -20,16 +20,43 @@
       line-height: 1.6;
     }
 
-    header {
-      background: #ffffff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    header.banner {
+      position: relative;
+      background: url('Mahinuddin Pinjara.png') no-repeat right center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       padding: 2rem;
-      text-align: center;
+      color: #fff;
+          background-size: 61vh;
+          background-color: #333;
     }
 
-    h1 {
-      font-size: 2rem;
+    .banner-text {
+      max-width: 50%;
+    }
+
+    .banner-text h1 {
+      font-size: 2.5rem;
       font-weight: 700;
+    }
+
+    .banner-text p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .banner-photo {
+      max-width: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .banner-photo img {
+      width: 100%;
+      display: block;
     }
 
     h2 {
@@ -65,9 +92,11 @@
 </head>
 
 <body>
-  <header>
-    <h1>Mahinuddin Pinjara</h1>
-    <p>Senior Full Stack .NET Developer | 11+ Years of Experience</p>
+  <header class="banner">
+    <div class="banner-text">
+      <h1>Mahinuddin Pinjara</h1>
+      <p>Senior Full Stack .NET Developer | 11+ Years of Experience</p>
+    </div>
   </header>
 
   <section>
